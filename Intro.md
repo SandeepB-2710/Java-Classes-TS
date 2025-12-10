@@ -64,3 +64,11 @@ git add README.md
 git commit -m "first commit"
 git remote add origin [https://github.com/loretoparisi/myrepo.git](https://github.com/loretoparisi/myrepo.git)
 git push -u origin master
+
+
+
+```bash
+git remote add origin [https://github.com/loretoparisi/myrepo.git](https://github.com/loretoparisi/myrepo.git)
+git pull origin master --allow-related-histories
+git commit -a -m "merge"
+git push -u origin master
